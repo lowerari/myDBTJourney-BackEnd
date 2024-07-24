@@ -22,3 +22,4 @@ class Course(models.Model):
     analyzing_behavior_lesson_2 = models.BooleanField(default=False)
     analyzing_behavior_lesson_2_practice = models.BooleanField(default=False)
     analyzing_behavior_lesson_2_quiz = models.BooleanField(default=False)
+    intro_mindfulness_lesson_1 = models.BooleanField(default=False)
